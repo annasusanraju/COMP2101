@@ -84,7 +84,7 @@ Format-Table Manufacturer,Drive,"Size(GB)","Free Space(GB)","Free Space(%)"
 
 function netadt_info {
 "     NETWORK ADAPTER INFORMATION    "
-  lab3.ps1 | Format-List
+  .\lab3.ps1 | Format-List
 }
 
 #Function To Display Graphical Processing Unit Information
